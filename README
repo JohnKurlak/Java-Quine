@@ -1,0 +1,12 @@
+This is a Quine (program that outputs its own source code) that I wrote in Java.
+The code is compressed as much as possible as to produce the shortest solution.
+
+A short description of how it works:
+
+It first makes character variables that store the # and " characters.  Then it
+makes a string [a] that prints out the program header and everything up to that
+declaration of that string.  Next, it prints two ## characters.  Then it prints
+all of that code that comes after the string declaration.  After the declaration
+of [a], I make another string [b] that replaces the ## with "".  Then I print out
+[b] up to the ", then I print [a], and finally I print the rest of [b] after the
+".
